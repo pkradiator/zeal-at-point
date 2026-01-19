@@ -16,7 +16,7 @@ Use prefix argument `C-u` to edit the search string first.
 There is no default keymap defined, but you could setup your own binding like this:
 
 ```lisp
-(global-set-key "\C-cd" 'zeal-at-point)
+(keymap-global-set "C-c d" 'zeal-at-point)
 ```
 
 
